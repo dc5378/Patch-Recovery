@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Check Out
-      uses: actions/checkout@v4
+      uses: setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
 
     - name: Prepare the environment
       run: |
